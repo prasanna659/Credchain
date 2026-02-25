@@ -1,0 +1,16 @@
+{
+  "name": "nexuscred-zk",
+  "version": "0.1.0",
+  "description": "Zero-knowledge circuits for NexusCred cross-credential verification",
+  "scripts": {
+    "build": "circom circuits/main.circom --r1cs --wasm --json",
+    "setup": "snarkjs powersoftau new bn128 12 pot12_0000.ptau -v && snarkjs powersoftau contribute pot12_0000.ptau pot12_0001.ptau --name='contribution' -v",
+    "compile": "snarkjs groth16 setup main.r1cs pot12_0001.ptau main_00.zkey && snarkjs zkey verify main.r1cs pot12_0001.ptau main_00.zkey",
+    "generate-proof": "node scripts/generateProof.js",
+    "verify-proof": "node scripts/verifyProof.js"
+  },
+  "devDependencies": {
+    "circom2": "^0.2.22",
+    "snarkjs": "^0.7.1"
+  }
+}
