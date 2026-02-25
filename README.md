@@ -1,4 +1,4 @@
-# 🚀 NexusCred — Zero-Knowledge Credential Verification System
+# 🚀 Credchain — Zero-Knowledge Credential Verification System
 
 A **blockchain-based credential verification system** that lets students prove eligibility for jobs using **zero-knowledge proofs** while revealing **zero personal data**.
 
@@ -579,6 +579,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**🚀 NexusCred - Privacy-preserving credential verification for the future of work**
+**🚀 Credchain
+- Privacy-preserving credential verification for the future of work**
 
 *Built with ❤️ for students, issuers, and employers worldwide*
