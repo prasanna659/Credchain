@@ -1,4 +1,4 @@
-# 📋 NexusCred Testing Reference Card
+# 📋 Credchain Testing Reference Card
 
 ## Quick Commands
 

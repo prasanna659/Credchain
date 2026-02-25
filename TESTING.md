@@ -1,6 +1,6 @@
-# 🧪 NexusCred — Local Testing Guide
+# 🧪 Credchain — Local Testing Guide
 
-This guide walks you through testing the complete NexusCred system end-to-end, including blockchain interactions, smart contracts, backend API, and frontend dashboards.
+This guide walks you through testing the complete Credchain system end-to-end, including blockchain interactions, smart contracts, backend API, and frontend dashboards.
 
 ---
 

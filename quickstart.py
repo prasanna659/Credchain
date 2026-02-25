@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-NexusCred Quick Start Script - Automated Testing Setup
-This script helps automate the setup and testing of NexusCred locally
+Credchain Quick Start Script - Automated Testing Setup
+This script helps automate the setup and testing of Credchain locally
 """
 
 import os
@@ -216,7 +216,7 @@ def show_test_guide():
     print_header("NEXT STEPS - TESTING GUIDE")
     
     test_guide = """
-You now have a complete NexusCred testing environment!
+You now have a complete Credchain testing environment!
 
 📌 OPEN 3 TERMINAL WINDOWS:
 
@@ -348,7 +348,7 @@ Hardhat console:
 
 def main():
     """Main entry point"""
-    print_header("🚀 NexusCred Quick Start")
+    print_header("🚀 Credchain Quick Start")
     
     # Check prerequisites
     if not check_prerequisites():

@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { ethers } from 'hardhat'
 
-describe('NexusCred contracts (smoke)', () => {
+describe('Credchain contracts (smoke)', () => {
   it('issuer stakes and registers', async () => {
     const [admin, issuer] = await ethers.getSigners()
 

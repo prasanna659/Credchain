@@ -1,8 +1,8 @@
-# 🎯 NexusCred Local Testing — START HERE
+# 🎯 Credchain Local Testing — START HERE
 
 ## You're Ready to Test the Full Project! 
 
-Your NexusCred implementation is **complete and ready** to see how the blockchain works in real-time.
+Your Credchain implementation is **complete and ready** to see how the blockchain works in real-time.
 
 ---
 
@@ -390,4 +390,4 @@ cd d:\projects\mainprojects\Nexes\frontend && npm run dev
 
 ---
 
-**Happy testing! Welcome to NexusCred.** 🚀
+**Happy testing! Welcome to Credchain.** 🚀

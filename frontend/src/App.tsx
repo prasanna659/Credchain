@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Rocket, Building, GraduationCap, Briefcase, ArrowRight, Shield, Zap, Lock } from 'lucide-react'
+import { Rocket, Shield, Zap, Lock } from 'lucide-react'
 import RoleSelection from './components/RoleSelection'
 import IssuerDashboard from './components/IssuerDashboard'
 import StudentDashboard from './components/StudentDashboard'
@@ -45,7 +45,7 @@ function App() {
             <div className="flex items-center justify-center mb-4">
               <Rocket className="w-10 h-10 text-white mr-3" />
               <h1 className="text-5xl md:text-6xl font-bold text-white">
-                NexusCred
+                Credchain
               </h1>
             </div>
             <motion.p 
@@ -87,7 +87,7 @@ function App() {
           className="mt-24"
         >
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-white mb-4">Why NexusCred?</h3>
+            <h3 className="text-3xl font-bold text-white mb-4">Why Credchain?</h3>
             <p className="text-white/80 text-lg">Revolutionary features for credential verification</p>
           </div>
           

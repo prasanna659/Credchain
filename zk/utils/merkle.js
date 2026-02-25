@@ -1,5 +1,5 @@
 /**
- * Merkle Tree Utility for NexusCred
+ * Merkle Tree Utility for Credchain
  * Generates Merkle roots and proofs for credential batches
  */
 

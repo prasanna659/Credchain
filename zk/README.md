@@ -1,4 +1,4 @@
-# NexusCred ZK Workspace
+# Credchain ZK Workspace
 
 Zero-knowledge circuits and proof generation for cross-credential eligibility verification.
 

@@ -1,7 +1,7 @@
 {
-  "name": "nexuscred-zk",
+  "name": "credchain-zk",
   "version": "0.1.0",
-  "description": "Zero-knowledge circuits for NexusCred cross-credential verification",
+  "description": "Zero-knowledge circuits for Credchain cross-credential verification",
   "scripts": {
     "build": "circom circuits/main.circom --r1cs --wasm --json",
     "setup": "snarkjs powersoftau new bn128 12 pot12_0000.ptau -v && snarkjs powersoftau contribute pot12_0000.ptau pot12_0001.ptau --name='contribution' -v",

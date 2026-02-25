@@ -1,4 +1,4 @@
-# 🚀 NexusCred Quick Reference Guide
+# 🚀 Credchain Quick Reference Guide
 
 ## Quick Start (Windows)
 

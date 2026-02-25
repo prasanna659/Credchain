@@ -1,12 +1,12 @@
 @echo off
-REM NexusCred Quick Start for Windows
+REM Credchain Quick Start for Windows
 REM This script opens 3 terminals for local testing
 
-title NexusCred Local Testing - Setup
+title Credchain Local Testing - Setup
 
 echo.
 echo ================================================================================
-echo   NexusCred Local Testing Setup
+echo   Credchain Local Testing Setup
 echo ================================================================================
 echo.
 echo This script will open 3 terminal windows for you:
@@ -19,7 +19,7 @@ echo.
 
 REM Check if we're in the right directory
 if not exist "contracts\package.json" (
-    echo Error: Not in NexusCred root directory
+    echo Error: Not in Credchain root directory
     echo Please run this script from: d:\projects\mainprojects\Nexes\
     pause
     exit /b 1
@@ -103,21 +103,21 @@ pause
 
 REM Open Terminal 1: Hardhat Node
 echo Opening Terminal 1 (Hardhat Node)...
-start "NexusCred - Hardhat Node" cmd /k "cd /d "%cd%\contracts" && npm run node"
+start "Credchain - Hardhat Node" cmd /k "cd /d "%cd%\contracts" && npm run node"
 
 REM Wait for blockchain to start
 timeout /t 8 /nobreak
 
 REM Open Terminal 2: Backend
 echo Opening Terminal 2 (Backend API)...
-start "NexusCred - Backend" cmd /k "cd /d "%cd%\backend" && python -m uvicorn app.main:app --reload --port 8000"
+start "Credchain - Backend" cmd /k "cd /d "%cd%\backend" && python -m uvicorn app.main:app --reload --port 8000"
 
 REM Wait for backend to start
 timeout /t 5 /nobreak
 
 REM Open Terminal 3: Frontend
 echo Opening Terminal 3 (Frontend)...
-start "NexusCred - Frontend" cmd /k "cd /d "%cd%\frontend" && npm run dev"
+start "Credchain - Frontend" cmd /k "cd /d "%cd%\frontend" && npm run dev"
 
 echo.
 echo ================================================================================

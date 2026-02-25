@@ -19,7 +19,7 @@ contract VerifiedEligibilitySBT is ERC721, AccessControl {
 
     error Soulbound();
 
-    constructor(address admin) ERC721("NexusCred Verified Eligibility", "NXCRED") {
+    constructor(address admin) ERC721("Credchain Verified Eligibility", "CRED") {
         _grantRole(DEFAULT_ADMIN_ROLE, admin);
         _grantRole(MINTER_ROLE, admin);
     }

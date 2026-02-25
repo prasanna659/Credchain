@@ -575,7 +575,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 - **Documentation**: Check `docs/` folder for detailed architecture
 - **Issues**: Open GitHub issue for bugs or feature requests
 - **Discussions**: Use GitHub Discussions for questions
-- **Email**: support@nexuscred.example.com
+- **Email**: support@credchain.example.com
 
 ---
 

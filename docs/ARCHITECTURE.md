@@ -1,6 +1,6 @@
-# NexusCred architecture (demo)
+# Credchain architecture (demo)
 
-This is a developer-focused description of how this repo maps to the NexusCred spec.
+This is a developer-focused description of how this repo maps to the Credchain spec.
 
 ## Players
 

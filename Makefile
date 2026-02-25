@@ -1,9 +1,9 @@
-# NexusCred Makefile - Quick commands for local testing
+# Credchain Makefile - Quick commands for local testing
 
 .PHONY: help install clean setup deploy start-blockchain start-backend start-frontend test docs
 
 help:
-	@echo "NexusCred Local Testing Commands"
+	@echo "Credchain Local Testing Commands"
 	@echo "================================="
 	@echo ""
 	@echo "Setup & Installation:"
